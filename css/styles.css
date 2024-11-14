@@ -780,6 +780,12 @@ address{
 .checkbox-feald{
   margin-bottom: 24px; 
 }
+
+.visibility-hidden{
+  background-color:  #404bbf; 
+  border: none; 
+  fill: #F4F4FD; 
+}
 .checkbox-text{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
