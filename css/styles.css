@@ -801,17 +801,11 @@ address{
   color: #8e8f99;
 }
 
-.visibility-hidden:checked+.checkbox-label{
+input[type="checkbox"]:checked+ .checkbox-label .icon-span{
   background-color:  #404bbf; 
   border: none; 
   fill: #F4F4FD;
 } 
-
-/* input[type="checkbox"]:checked + .checkbox-label .icon-span{
-  background-color:  #404bbf; 
-  border: none; 
-  fill: #F4F4FD;
-} */
 .icon-span{
   width: 16px;
   height: 16px;
