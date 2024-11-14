@@ -801,7 +801,7 @@ address{
   color: #8e8f99;
 }
 
-input[type="checkbox"]:checked+ .checkbox-label .icon-span{
+input[type="checkbox"]:checked + .checkbox-label.icon-span{
   background-color:  #404bbf; 
   border: none; 
   fill: #F4F4FD;
