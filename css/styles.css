@@ -781,11 +781,11 @@ address{
   margin-bottom: 24px; 
 }
 
-.visibility-hidden{
+ /* .visibility-hidden{
   background-color:  #404bbf; 
   border: none; 
   fill: #F4F4FD; 
-}
+}  */
 .checkbox-text{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -805,6 +805,9 @@ address{
   justify-content: center;
   fill: transparent;
   visibility: hidden; 
+  background-color:  #404bbf; 
+  border: none; 
+  fill: #F4F4FD; 
 }
 
 .checkbox-icon{
