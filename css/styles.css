@@ -805,9 +805,6 @@ address{
   justify-content: center;
   fill: transparent;
   visibility: hidden; 
-  background-color:  #404bbf; 
-  border: none; 
-  fill: #F4F4FD; 
 }
 
 .checkbox-icon{
