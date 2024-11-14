@@ -685,6 +685,7 @@ address{
 .modal-close:focus {
   background-color: #404bbf;
   border: none; 
+  
 } 
 
 
@@ -695,10 +696,15 @@ address{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
  } 
 
-.icon-close:hover,
-.icon-close:focus{
+
+.modal-close:hover .icon-close {
   fill: #ffffff;
-} 
+  
+}
+.modal-close:focus .icon-close {
+  fill: #ffffff;
+  
+}
 
 .modal-title{
   font-family: "Roboto", sans-serif;
@@ -786,7 +792,7 @@ address{
   border: none; 
   fill: #F4F4FD; 
 }  */
-.checkbox-text{
+.checkbox-label{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -794,11 +800,18 @@ address{
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-input[type="checkbox"]:checked + .checkbox-text .icon-span{
+
+.visibility-hidden:checked+.checkbox-label{
   background-color:  #404bbf; 
   border: none; 
   fill: #F4F4FD;
-}
+} 
+
+/* input[type="checkbox"]:checked + .checkbox-label .icon-span{
+  background-color:  #404bbf; 
+  border: none; 
+  fill: #F4F4FD;
+} */
 .icon-span{
   width: 16px;
   height: 16px;
