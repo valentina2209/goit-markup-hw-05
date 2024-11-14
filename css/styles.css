@@ -806,11 +806,17 @@ address{
   color: #8e8f99;
 }
 
-input[type="checkbox"]:checked + .checkbox-label .icon-span {
+.visibility-hidden:checked + .checkbox-label .icon-span{
+  background-color:  #404bbf; 
+  border: none; 
+  fill: #F4F4FD;
+}
+
+/* input[type="checkbox"]:checked + .checkbox-label .icon-span {
   background-color: var(--checkbox-background-color);
   border: none;
   fill: var(--checkbox-icon-color);
-}
+} */
 /* input[type="checkbox"]:checked + .checkbox-label .icon-span{
   background-color:  #404bbf; 
   border: none; 
