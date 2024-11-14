@@ -684,6 +684,7 @@ address{
 .modal-close:hover,
 .modal-close:focus {
   background-color: #404bbf;
+  border: none; 
 } 
 
 
